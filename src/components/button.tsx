@@ -3,7 +3,7 @@ import { cva, VariantProps } from "class-variance-authority";
 import { ArrowLongRightIcon } from "@heroicons/react/16/solid";
 
 const buttonVariants = cva(
-  "box-border flex h-fit w-fit items-center gap-14 rounded-full border-2 border-transparent px-12 py-6 transition-all duration-100 hover:box-content",
+  "box-border flex h-fit w-fit items-center gap-14 rounded-full border-2 border-transparent px-12 py-4 transition-all duration-100 hover:box-content",
   {
     variants: {
       intent: {
