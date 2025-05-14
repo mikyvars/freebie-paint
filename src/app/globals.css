@@ -21,6 +21,10 @@
   --color-light-4: oklch(0.79 0.0973 90.47);
   --color-light-5: oklch(0.84 0.1504 77.34);
   --color-shade: oklch(0.97 0.0378 92.23);
+
+  --shadow-button-yellow: 9px 9px 0 0 var(--color-yellow);
+  --shadow-button-white: 9px 9px 0 0 var(--color-white);
+  --shadow-button-dark: 9px 9px 0 0 var(--color-dark);
 }
 
 body {
